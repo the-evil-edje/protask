@@ -106,11 +106,26 @@ void BtnRightClick()
 }
 
 void JoyStick()
-{
-  Serial.print("X = "),Serial.print(map(analogRead(joystick_axis_x), 0, 1000, -1, 1));Serial.print("\t");
-  Serial.print("Y = "),Serial.print(map(analogRead(joystick_axis_y), 0, 1000, -1, 1));Serial.print("\n");  
-  Serial.print("X = "),Serial.print(analogRead(joystick_axis_x));Serial.print("\t");
-  Serial.print("Y = "),Serial.print(analogRead(joystick_axis_y));Serial.print("\n"); 
+{   
+  if (map(analogRead(joystick_axis_x), 0, 1000, -1, 1) == 1)
+  {
+    Serial.println("camera turns right");
+  }
+  
+  if (map(analogRead(joystick_axis_x), 0, 1000, -1, 1) == -1)
+  {
+    Serial.println("camera turns left");
+  }
+  
+  if (map(analogRead(joystick_axis_y), 0, 1000, -1, 1) == 1)
+  {
+    Serial.println("moving forward");
+  }
+
+    if (map(analogRead(joystick_axis_y), 0, 1000, -1, 1) == -1)
+  {
+    Serial.println("moving backwards");
+  }
 }
 
 void setup() {
@@ -141,7 +156,6 @@ void loop() {
   BtnDownClick();
   BtnRightClick();
   JoyStick();
-  delay(1000);
 }
 
  
