@@ -15,6 +15,11 @@ public class movement : MonoBehaviour {
     [SerializeField] Camera cameraForce;
 
     // Update is called once per frame
+    void start()
+    {
+
+    }
+
     void FixedUpdate()
     {
 
@@ -44,12 +49,20 @@ public class movement : MonoBehaviour {
         }
     }
 
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Pick Ups"))
+        {
+            other.gameObject.SetActive(false);
+        }
+    }
+
     private void jump()
     {
         if (!isJumping)
         {
             isJumping = true;
-            rb.AddForce(Vector3.up * 200);
+            rb.AddForce(Vector3.up * 350);
             //reset isJumping after 1.7 seconds
             Invoke("resetIsJumping", 1.5f);
         }
