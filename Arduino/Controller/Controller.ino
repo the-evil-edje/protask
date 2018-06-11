@@ -1,3 +1,7 @@
+#include <SoftwareSerial.h>
+#include <SerialCommand.h>
+SerialCommand sCmd;
+
 int up_button = 2;
 int down_button = 4;
 int left_button = 5;
@@ -135,6 +139,9 @@ void setup() {
    digitalWrite(buttons[i], HIGH);
   }
   Serial.begin(9600);
+  while (!Serial);
+
+  sCmd.addCommand("PING", pingHandler);
 }
 
 void loop() {
