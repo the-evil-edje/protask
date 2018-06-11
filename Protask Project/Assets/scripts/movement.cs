@@ -23,7 +23,7 @@ public class movement : MonoBehaviour {
 
     void Update()
     {
-        transform.Rotate(0, Input.GetAxis("Horizontal") * 80 * Time.deltaTime, 0);
+        transform.Rotate(0, Input.GetAxis("Horizontal") * 125 * Time.deltaTime, 0);
 
         //this code gives a huge amount of force to the wrong direction but this one is still very important...!!!
         if (Input.GetAxis("Vertical") > 0)
