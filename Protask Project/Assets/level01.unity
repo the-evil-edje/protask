@@ -285,7 +285,7 @@ Prefab:
     - target: {fileID: 2300000, guid: e542a11528d1e6346b019ca47b7821db, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 73b7fd20f37a31c48a898f8aa3430069, type: 2}
+      objectReference: {fileID: 2100000, guid: cec9db15d0d44ae4290c44fad7a21a70, type: 2}
     - target: {fileID: 400000, guid: e542a11528d1e6346b019ca47b7821db, type: 3}
       propertyPath: m_LocalScale.y
       value: 99.99985
@@ -363,7 +363,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e74fad3f781a89409155dfcb8791661, type: 2}
+      objectReference: {fileID: 2100000, guid: f776388137c02244ea84f32228ccf6ff, type: 2}
     - target: {fileID: 100000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_TagString
       value: Pick Ups
@@ -552,7 +552,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e74fad3f781a89409155dfcb8791661, type: 2}
+      objectReference: {fileID: 2100000, guid: f776388137c02244ea84f32228ccf6ff, type: 2}
     - target: {fileID: 100000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_TagString
       value: Pick Ups
@@ -627,7 +627,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e74fad3f781a89409155dfcb8791661, type: 2}
+      objectReference: {fileID: 2100000, guid: f776388137c02244ea84f32228ccf6ff, type: 2}
     - target: {fileID: 100000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_TagString
       value: Pick Ups
@@ -677,7 +677,7 @@ Prefab:
     - target: {fileID: 2300000, guid: e542a11528d1e6346b019ca47b7821db, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 73b7fd20f37a31c48a898f8aa3430069, type: 2}
+      objectReference: {fileID: 2100000, guid: cec9db15d0d44ae4290c44fad7a21a70, type: 2}
     - target: {fileID: 400000, guid: e542a11528d1e6346b019ca47b7821db, type: 3}
       propertyPath: m_LocalScale.y
       value: 99.999886
@@ -755,7 +755,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e74fad3f781a89409155dfcb8791661, type: 2}
+      objectReference: {fileID: 2100000, guid: f776388137c02244ea84f32228ccf6ff, type: 2}
     - target: {fileID: 100000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_TagString
       value: Pick Ups
@@ -805,7 +805,7 @@ Prefab:
     - target: {fileID: 2300000, guid: e542a11528d1e6346b019ca47b7821db, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 73b7fd20f37a31c48a898f8aa3430069, type: 2}
+      objectReference: {fileID: 2100000, guid: cec9db15d0d44ae4290c44fad7a21a70, type: 2}
     - target: {fileID: 400000, guid: e542a11528d1e6346b019ca47b7821db, type: 3}
       propertyPath: m_LocalScale.y
       value: 99.99969
@@ -1074,11 +1074,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3722582d614650e4ca6dfa440f512b1f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b64f6a5d776434a46940a52079e8f978, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1129,7 +1129,7 @@ AudioSource:
       outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 0
+    m_RotationOrder: 4
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1159,7 +1159,7 @@ AudioSource:
       outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 0
+    m_RotationOrder: 4
 --- !u!1001 &474190508
 Prefab:
   m_ObjectHideFlags: 0
@@ -1268,7 +1268,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e74fad3f781a89409155dfcb8791661, type: 2}
+      objectReference: {fileID: 2100000, guid: f776388137c02244ea84f32228ccf6ff, type: 2}
     - target: {fileID: 100000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_TagString
       value: Pick Ups
@@ -1408,7 +1408,7 @@ GameObject:
   - component: {fileID: 593962682}
   - component: {fileID: 593962681}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Count Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1427,10 +1427,10 @@ RectTransform:
   m_Father: {fileID: 1712150616}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000076294, y: 168}
-  m_SizeDelta: {x: 174.8, y: 30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 134, y: -29.6}
+  m_SizeDelta: {x: 267.9, y: 59.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &593962681
 MonoBehaviour:
@@ -1458,13 +1458,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 62
-    m_Alignment: 4
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: Count Text
 --- !u!222 &593962682
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1679,6 +1679,80 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44ffbe390bceadd478510b014a214c33, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &747751138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 747751139}
+  - component: {fileID: 747751141}
+  - component: {fileID: 747751140}
+  m_Layer: 5
+  m_Name: Win Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &747751139
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 747751138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1712150616}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.0000038146973, y: 14.999992}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &747751140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 747751138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 34
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: Win Text
+--- !u!222 &747751141
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 747751138}
 --- !u!4 &752488906 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4649360792820030, guid: 44ffbe390bceadd478510b014a214c33,
@@ -1746,7 +1820,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e74fad3f781a89409155dfcb8791661, type: 2}
+      objectReference: {fileID: 2100000, guid: f776388137c02244ea84f32228ccf6ff, type: 2}
     - target: {fileID: 100000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_TagString
       value: Pick Ups
@@ -1801,7 +1875,7 @@ Prefab:
     - target: {fileID: 2300000, guid: e542a11528d1e6346b019ca47b7821db, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 73b7fd20f37a31c48a898f8aa3430069, type: 2}
+      objectReference: {fileID: 2100000, guid: cec9db15d0d44ae4290c44fad7a21a70, type: 2}
     - target: {fileID: 400000, guid: e542a11528d1e6346b019ca47b7821db, type: 3}
       propertyPath: m_LocalScale.y
       value: 99.999725
@@ -1899,7 +1973,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e74fad3f781a89409155dfcb8791661, type: 2}
+      objectReference: {fileID: 2100000, guid: f776388137c02244ea84f32228ccf6ff, type: 2}
     - target: {fileID: 100000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_TagString
       value: Pick Ups
@@ -1969,7 +2043,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e74fad3f781a89409155dfcb8791661, type: 2}
+      objectReference: {fileID: 2100000, guid: f776388137c02244ea84f32228ccf6ff, type: 2}
     - target: {fileID: 100000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_TagString
       value: Pick Ups
@@ -2167,7 +2241,7 @@ Prefab:
     - target: {fileID: 2300000, guid: e542a11528d1e6346b019ca47b7821db, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 73b7fd20f37a31c48a898f8aa3430069, type: 2}
+      objectReference: {fileID: 2100000, guid: cec9db15d0d44ae4290c44fad7a21a70, type: 2}
     - target: {fileID: 400000, guid: e542a11528d1e6346b019ca47b7821db, type: 3}
       propertyPath: m_LocalScale.y
       value: 99.99981
@@ -2339,12 +2413,12 @@ Prefab:
     - target: {fileID: 114676387751828772, guid: 75221b2728e04c14a9a31e019b4d582b,
         type: 2}
       propertyPath: forwardspeed
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 114676387751828772, guid: 75221b2728e04c14a9a31e019b4d582b,
         type: 2}
       propertyPath: backwardspeed
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 54497396446489016, guid: 75221b2728e04c14a9a31e019b4d582b,
         type: 2}
@@ -2359,7 +2433,7 @@ Prefab:
     - target: {fileID: 114676387751828772, guid: 75221b2728e04c14a9a31e019b4d582b,
         type: 2}
       propertyPath: speed
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1479222547245934, guid: 75221b2728e04c14a9a31e019b4d582b, type: 2}
       propertyPath: m_IsActive
@@ -2370,6 +2444,21 @@ Prefab:
       propertyPath: m_AngularDrag
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114676387751828772, guid: 75221b2728e04c14a9a31e019b4d582b,
+        type: 2}
+      propertyPath: jumpforce
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 114676387751828772, guid: 75221b2728e04c14a9a31e019b4d582b,
+        type: 2}
+      propertyPath: countText
+      value: 
+      objectReference: {fileID: 593962681}
+    - target: {fileID: 114676387751828772, guid: 75221b2728e04c14a9a31e019b4d582b,
+        type: 2}
+      propertyPath: winText
+      value: 
+      objectReference: {fileID: 747751140}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 75221b2728e04c14a9a31e019b4d582b, type: 2}
   m_IsPrefabParent: 0
@@ -2475,7 +2564,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e74fad3f781a89409155dfcb8791661, type: 2}
+      objectReference: {fileID: 2100000, guid: f776388137c02244ea84f32228ccf6ff, type: 2}
     - target: {fileID: 100000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_TagString
       value: Pick Ups
@@ -2545,7 +2634,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e74fad3f781a89409155dfcb8791661, type: 2}
+      objectReference: {fileID: 2100000, guid: f776388137c02244ea84f32228ccf6ff, type: 2}
     - target: {fileID: 100000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_TagString
       value: Pick Ups
@@ -2653,7 +2742,7 @@ Prefab:
     - target: {fileID: 2300000, guid: e542a11528d1e6346b019ca47b7821db, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 73b7fd20f37a31c48a898f8aa3430069, type: 2}
+      objectReference: {fileID: 2100000, guid: cec9db15d0d44ae4290c44fad7a21a70, type: 2}
     - target: {fileID: 400000, guid: e542a11528d1e6346b019ca47b7821db, type: 3}
       propertyPath: m_LocalScale.y
       value: 99.99976
@@ -2711,7 +2800,7 @@ Prefab:
     - target: {fileID: 2300000, guid: e542a11528d1e6346b019ca47b7821db, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 73b7fd20f37a31c48a898f8aa3430069, type: 2}
+      objectReference: {fileID: 2100000, guid: cec9db15d0d44ae4290c44fad7a21a70, type: 2}
     - target: {fileID: 400000, guid: e542a11528d1e6346b019ca47b7821db, type: 3}
       propertyPath: m_LocalScale.y
       value: 99.99997
@@ -2809,7 +2898,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e74fad3f781a89409155dfcb8791661, type: 2}
+      objectReference: {fileID: 2100000, guid: f776388137c02244ea84f32228ccf6ff, type: 2}
     - target: {fileID: 100000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_TagString
       value: Pick Ups
@@ -2984,7 +3073,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e74fad3f781a89409155dfcb8791661, type: 2}
+      objectReference: {fileID: 2100000, guid: f776388137c02244ea84f32228ccf6ff, type: 2}
     - target: {fileID: 100000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_TagString
       value: Pick Ups
@@ -3054,7 +3143,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e74fad3f781a89409155dfcb8791661, type: 2}
+      objectReference: {fileID: 2100000, guid: f776388137c02244ea84f32228ccf6ff, type: 2}
     - target: {fileID: 100000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_TagString
       value: Pick Ups
@@ -3336,7 +3425,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e74fad3f781a89409155dfcb8791661, type: 2}
+      objectReference: {fileID: 2100000, guid: f776388137c02244ea84f32228ccf6ff, type: 2}
     - target: {fileID: 100000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_TagString
       value: Pick Ups
@@ -3430,6 +3519,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 593962680}
+  - {fileID: 747751139}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3674,7 +3764,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e74fad3f781a89409155dfcb8791661, type: 2}
+      objectReference: {fileID: 2100000, guid: f776388137c02244ea84f32228ccf6ff, type: 2}
     - target: {fileID: 100000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_TagString
       value: Pick Ups
@@ -3744,7 +3834,7 @@ Prefab:
     - target: {fileID: 2300000, guid: e542a11528d1e6346b019ca47b7821db, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 73b7fd20f37a31c48a898f8aa3430069, type: 2}
+      objectReference: {fileID: 2100000, guid: cec9db15d0d44ae4290c44fad7a21a70, type: 2}
     - target: {fileID: 400000, guid: e542a11528d1e6346b019ca47b7821db, type: 3}
       propertyPath: m_LocalScale.y
       value: 99.99992
@@ -3848,6 +3938,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23263028379080500, guid: f3b8824635cf57f4cb9e2a02ad98d8ee,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f601a043a48c56541b18eca1347106d0, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f3b8824635cf57f4cb9e2a02ad98d8ee, type: 2}
   m_IsPrefabParent: 0
@@ -4018,7 +4113,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e74fad3f781a89409155dfcb8791661, type: 2}
+      objectReference: {fileID: 2100000, guid: f776388137c02244ea84f32228ccf6ff, type: 2}
     - target: {fileID: 100000, guid: 03c1fee32dd1e2a4c97627147da7b06b, type: 3}
       propertyPath: m_TagString
       value: Pick Ups

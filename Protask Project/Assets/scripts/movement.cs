@@ -1,29 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class movement : MonoBehaviour {
 
     public Rigidbody rb;
 
+    private int count;
+
     public float speed = 5.0f;
     public float forwardspeed = 5.0f;
     public float backwardspeed = 3.5f;
+    public float jumpforce = 350;
 
     private bool isJumping;
 
+    public Text countText;
+    public Text winText;
+
     [SerializeField] Camera cameraForce;
 
-    // Update is called once per frame
-    void start()
+    void Start()
     {
-
-    }
-
-    void FixedUpdate()
-    {
-
-
+        count = 0;
+        SetCountText();
+        winText.text = "";
     }
 
     void Update()
@@ -54,6 +56,8 @@ public class movement : MonoBehaviour {
         if (other.gameObject.CompareTag("Pick Ups"))
         {
             other.gameObject.SetActive(false);
+            count = count + 1;
+            SetCountText();
         }
     }
 
@@ -62,7 +66,7 @@ public class movement : MonoBehaviour {
         if (!isJumping)
         {
             isJumping = true;
-            rb.AddForce(Vector3.up * 350);
+            rb.AddForce(Vector3.up * jumpforce);
             //reset isJumping after 1.7 seconds
             Invoke("resetIsJumping", 1.5f);
         }
@@ -71,6 +75,17 @@ public class movement : MonoBehaviour {
     private void resetIsJumping()
     {
             isJumping = false;
-    } 
+    }
+
+    void SetCountText()
+    {
+        countText.text = count.ToString() + "/16";
+        if (count == 16)
+        {
+            winText.text = "You have collected all the Gems";
+        }
+    }
 }
+
+
 

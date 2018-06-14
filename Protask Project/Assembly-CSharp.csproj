@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\scripts\cameraRig.cs" />
+     <Compile Include="Assets\scripts\fade.cs" />
      <Compile Include="Assets\scripts\movement.cs" />
      <Compile Include="Assets\scripts\movingupanddown.cs" />
      <Compile Include="Assets\scripts\respawn.cs" />
