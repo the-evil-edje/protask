@@ -956,3 +956,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aed88769c26c6874b877cdec787f95a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scene: level01
+  loadToColor: {r: 0, g: 0, b: 0, a: 1}

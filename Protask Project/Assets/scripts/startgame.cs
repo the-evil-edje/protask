@@ -4,10 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class startgame : MonoBehaviour {
+    //name of the scene you want to load
+    public string scene;
+    public Color loadToColor = Color.black;
 
     public void StartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Initiate.Fade(scene, loadToColor, 1.0f);    
     }
-
 }
